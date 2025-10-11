@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fake News Detector (C Backend Mockup)</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Fake News Detector 📰</h1>
+      <p>Enter a news article below to classify it as Real or Fake.</p>
+
+      <div class="input-section">
+        <textarea
+          id="article-input"
+          placeholder="Paste the full news article text here..."
+        ></textarea>
+        <button id="predict-button">Classify Article</button>
+      </div>
+
+      <div id="results-section" class="results-section hidden">
+        <h2>Classification Result</h2>
+        <div class="result-box">
+          <span id="predicted-label"></span>
+        </div>
+        <div id="loading-indicator" class="loading hidden">Processing...</div>
+        <p class="explanation">
+          (In a live system, this frontend sends the text to your compiled C
+          program via a server.)
+        </p>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
