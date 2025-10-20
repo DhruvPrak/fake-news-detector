@@ -30,7 +30,6 @@ p {
   margin-bottom: 25px;
 }
 
-/* Input Styling */
 .input-section {
   display: flex;
   flex-direction: column;
@@ -68,7 +67,6 @@ p {
   cursor: not-allowed;
 }
 
-/* Output Styling */
 .results-section {
   margin-top: 40px;
   padding-top: 20px;
@@ -111,3 +109,4 @@ p {
   font-style: italic;
   margin-top: 10px;
 }
+
